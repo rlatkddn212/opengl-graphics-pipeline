@@ -265,4 +265,3 @@ https://learnopengl.com/Advanced-OpenGL/Anti-Aliasing
 http://stonebird.github.io/Project4-CUDA-Rasterizer/
 https://learnopengl.com/Advanced-OpenGL/Stencil-testing
 https://en.wikibooks.org/wiki/Cg_Programming/Vertex_Transformations
-https://kor.midasuser.com/building/products/products.asp?nCat=2112&idx=256171

@@ -250,3 +250,19 @@ viewport 변환이 이뤄지면 정점이 2차원 표면으로 이동하게 되�
 - 버퍼를 2~3개를 사용하여 해결
 
 ![1565108968108](https://github.com/rlatkddn212/opengl-graphics-pipeline/blob/master/assets/1565108968108.png)
+
+
+
+
+
+
+## 참고 자료 이미지
+https://www.shadertoy.com/view/Xds3zN
+https://www.lighthouse3d.com/tutorials/glsl-tutorial/primitive-assembly/
+http://glasnost.itcarlow.ie/~powerk/GeneralGraphicsNotes/HSR/backfaceculling.html
+http://alex-charlton.com/posts/Dithering_on_the_GPU/
+https://learnopengl.com/Advanced-OpenGL/Anti-Aliasing
+http://stonebird.github.io/Project4-CUDA-Rasterizer/
+https://learnopengl.com/Advanced-OpenGL/Stencil-testing
+https://en.wikibooks.org/wiki/Cg_Programming/Vertex_Transformations
+https://kor.midasuser.com/building/products/products.asp?nCat=2112&idx=256171

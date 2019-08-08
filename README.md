@@ -31,7 +31,7 @@ OpenGL 그래픽스 파이프라인을 정리한 문서입니다.
 그럼 각 파이프라인 단계를 더 자세히 설명해본다.
 
 
-
+-----------
 ## Vertex Specification 단계
 
 - 말 그대로 정점을 정의하는 단계, 사용자가 프로그래밍 가능한 단계
@@ -51,7 +51,7 @@ Index Buffer를 예를들면 아래 그림처럼 정점 데이터 구성이 달�
 즉, Index Buffer를 사용하게 될 경우 정점 정보가 다르게 구성되므로 이런 처리들을 Vertex Specification 단계에서 처리해준다.
 
 
-
+---------------
 ## Vertex Shader 단계
 
 - 전달받은 정점을 조작할 수 있는 프로그래밍 가능한 단계
@@ -95,7 +95,7 @@ Index Buffer를 예를들면 아래 그림처럼 정점 데이터 구성이 달�
 ![1565107128493](https://github.com/rlatkddn212/opengl-graphics-pipeline/blob/master/assets/1565107128493.png)
 
 
-
+---------
 ## Tessellation, Geometry Shader 단계
 - 사용자가 프로그래밍 가능한 단계
 - Tessellation은 삼각형을 세분화하여 정밀하게 표현할 수 있음
@@ -120,7 +120,7 @@ Index Buffer를 예를들면 아래 그림처럼 정점 데이터 구성이 달�
 ![1565107561770](https://github.com/rlatkddn212/opengl-graphics-pipeline/blob/master/assets/1565107561770.png)
 
 
-
+------------
 ## Primitive Assembly 단계
 
 - Primitive 란 점, 선,삼각형을 의미
@@ -133,7 +133,7 @@ Index Buffer를 예를들면 아래 그림처럼 정점 데이터 구성이 달�
 ![1565107673378](https://github.com/rlatkddn212/opengl-graphics-pipeline/blob/master/assets/1565107673378.png)
 
 
-
+-------
 ## Resterization 단계
 
 - 레스터라이즈하기 전 클리핑, 컬링, viewport 변환을 실행
@@ -171,7 +171,7 @@ viewport 변환이 이뤄지면 정점이 2차원 표면으로 이동하게 되�
 ![1565108027782](https://github.com/rlatkddn212/opengl-graphics-pipeline/blob/master/assets/1565108027782.png)
 
 
-
+--------
 ## Fragment Shader 단계
 
 - 사용자가 프로그래밍 가능한 단계
@@ -188,7 +188,7 @@ viewport 변환이 이뤄지면 정점이 2차원 표면으로 이동하게 되�
 
 
 
-
+----------
 ## Fragment Processing 단계
 - 여러 테스트를 통해 Fragment를 사용할 것인지 결정
 
@@ -217,7 +217,7 @@ viewport 변환이 이뤄지면 정점이 2차원 표면으로 이동하게 되�
 
 
 
-
+---------
 ## Pixel Processing 단계
 - 프래그먼트가 테스트를 통과하게 되면 실제로 스크린에 사용될 픽셀이 됨
 - 마지막 단계로 이 픽셀들에 색상을 블랜딩하거나, 디더링, 샘플링을 통해 이미지를 자연스럽게 표현
@@ -243,7 +243,7 @@ viewport 변환이 이뤄지면 정점이 2차원 표면으로 이동하게 되�
 
 
 
-
+------------
 ## Double Buffering
 
 - 하나의 버퍼를 사용하면 video memory에 픽셀을 랜더링하는 동안 화면에 제대로 표시하지 못함
@@ -255,7 +255,7 @@ viewport 변환이 이뤄지면 정점이 2차원 표면으로 이동하게 되�
 
 
 
-
+---------------
 ## 참고 자료 이미지
 https://www.shadertoy.com/view/Xds3zN
 https://www.lighthouse3d.com/tutorials/glsl-tutorial/primitive-assembly/

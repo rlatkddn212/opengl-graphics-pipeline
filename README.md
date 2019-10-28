@@ -34,7 +34,7 @@ OpenGL 그래픽스 파이프라인을 정리한 문서입니다.
 -----------
 ## Vertex Specification 단계
 
-- 말 그대로 정점을 정의하는 단계, 사용자가 프로그래밍 가능한 단계
+- 말 그대로 정점을 정의하는 단계
 - 여러 정보를 기반으로 Vertex Shader에 정점들을 전달함
 - 여기서 정보란, Stride의 크기, 자료형(float, short, int), Index Buffer를 사용하는지 여부, 삼각형의 연결 방법 (triangle, strip, fan)
 

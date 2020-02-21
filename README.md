@@ -257,11 +257,11 @@ viewport 변환이 이뤄지면 정점이 2차원 표면으로 이동하게 되�
 
 ---------------
 ## 참고 자료 이미지
-https://www.shadertoy.com/view/Xds3zN
-https://www.lighthouse3d.com/tutorials/glsl-tutorial/primitive-assembly/
-http://glasnost.itcarlow.ie/~powerk/GeneralGraphicsNotes/HSR/backfaceculling.html
-http://alex-charlton.com/posts/Dithering_on_the_GPU/
-https://learnopengl.com/Advanced-OpenGL/Anti-Aliasing
-http://stonebird.github.io/Project4-CUDA-Rasterizer/
-https://learnopengl.com/Advanced-OpenGL/Stencil-testing
-https://en.wikibooks.org/wiki/Cg_Programming/Vertex_Transformations
+https://www.shadertoy.com/view/Xds3zN  
+https://www.lighthouse3d.com/tutorials/glsl-tutorial/primitive-assembly/  
+http://glasnost.itcarlow.ie/~powerk/GeneralGraphicsNotes/HSR/backfaceculling.html  
+http://alex-charlton.com/posts/Dithering_on_the_GPU/  
+https://learnopengl.com/Advanced-OpenGL/Anti-Aliasing  
+http://stonebird.github.io/Project4-CUDA-Rasterizer/  
+https://learnopengl.com/Advanced-OpenGL/Stencil-testing  
+https://en.wikibooks.org/wiki/Cg_Programming/Vertex_Transformations  
